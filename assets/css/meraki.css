@@ -4,16 +4,17 @@
     font-size: 19px;
 }
 
-body{
+body {
     display: flex;
-    align-items: center;
-    height: 100vh;
-    background-color: azure;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-.contenedor{
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -34,8 +35,6 @@ body{
     text-align: center;
     font-size: 1.2em;
 }
-
-
 
 footer {
     display: grid;
